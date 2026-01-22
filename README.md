@@ -1,0 +1,2 @@
+# ArtificRealm
+SillyTavern Character Card
