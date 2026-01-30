@@ -78,4 +78,4 @@ Tavern helper github https://github.com/N0VI028/JS-Slash-Runner
 
 ST Prompt template source code https://codeberg.org/zonde306/ST-Prompt-Template/
 
-ps. Tavern Helper is *the* default installation extension for the Chinese SillyTavern commnuity, we are talking about
+ps. Tavern Helper is *the* default installation extension for the Chinese SillyTavern commnuity, we are talking about hundred of thousand of users have this installed by default.
