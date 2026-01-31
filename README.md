@@ -28,6 +28,8 @@ You will need some decent AI to pull this off. My testing platform was on Gemini
 
 Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, you will have to download a preset that works with Tavern Helper. There is one I found that have some English translation can be downloaded Izumi preset from https://discord.gg/C6HabNwzn7 inside a discord channel as you see in the installation video. You will need to patch 2 places as you saw in the video so that it works correctly in English.
 
+In case you have a hard time to get the Izumi preset, I found that Megumin Preset here at reddit works OK, although not optimal, but it works. You will have to read the post below to setup the preset (including the first comment by the OP) https://www.reddit.com/r/SillyTavernAI/comments/1q2bwdp/megumins_secret_sauce_gemini_v15_3_and_25/
+
 Once you get into the game/chat, you can view the storage of the stats in JSON format at the red arrow https://i.vgy.me/zoLtSs.jpg , and you can view every single floor of the chat at this tab https://i.vgy.me/G9kcUQ.jpg . You can modify the stat right here if you need to. The blue arrow would allow you to see the prompt that will be sent to AI for preset builder.
 
 This game is far from polished, but it serve as a showcase what the extension can be done. I believe Tavern Helper would have a English version soon as I saw they are doing translation on Github.
