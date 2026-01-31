@@ -1,0 +1,77 @@
+#  🍺 Launch SillyTavern (Force Config Fix)
+# u/markdown This script forcefully writes the config file from scratch to guarantee "Listen: True" works on the first try.
+
+import os
+import time
+import yaml
+from google.colab import drive
+from IPython.display import clear_output
+
+# 1. MOUNT DRIVE
+print("📂 Mounting Google Drive...")
+drive.mount('/content/drive')
+
+# 2. INSTALL REQUIREMENTS
+print("📦 Installing Node.js & Cloudflared...")
+!npm install -g n > /dev/null
+!n lts > /dev/null
+!wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+!dpkg -i cloudflared-linux-amd64.deb
+
+# 3. CLONE SILLYTAVERN
+%cd /content
+if os.path.exists("/content/SillyTavern"):
+    print("🔄 Updating SillyTavern...")
+    %cd /content/SillyTavern
+    !git pull
+else:
+    print("⬇️ Cloning SillyTavern...")
+    !git clone https://github.com/SillyTavern/SillyTavern
+
+# 4. DATA PERSISTENCE
+print("🔗 Linking Data...")
+st_drive_path = "/content/drive/MyDrive/SillyTavern_Data"
+local_data_path = "/content/SillyTavern/data"
+
+if not os.path.exists(st_drive_path):
+    os.makedirs(st_drive_path)
+    if os.path.exists(local_data_path):
+        !cp -r "$local_data_path/"* "$st_drive_path/"
+
+!rm -rf "$local_data_path"
+!ln -s "$st_drive_path" "$local_data_path"
+
+# 5. FORCE WRITE CONFIG (The Fix)
+print("⚙️ Overwriting Config.yaml...")
+config_path = '/content/SillyTavern/config.yaml'
+
+# We define the strict config manually to ensure it's correct
+# regardless of what SillyTavern defaults are.
+forced_config = {
+    'port': 8000,
+    'listen': True,
+    'enableForwardedWhitelist': False,
+    'dataRoot': './data'
+}
+
+# Write this dictionary directly to the file
+with open(config_path, 'w') as f:
+    yaml.dump(forced_config, f, default_flow_style=False)
+
+print("✅ Config forced: Listen=True, Whitelist=Disabled")
+
+# 6. LAUNCH
+print("🚀 Launching...")
+%cd /content/SillyTavern
+!npm install --no-audit --fund --quiet > /dev/null
+!pkill cloudflared
+!cloudflared tunnel --url http://127.0.0.1:8000 > tunnel_log.txt 2>&1 &
+
+print("----------------------------------------------------------------")
+print("⏳ Waiting for link...")
+time.sleep(8)
+print("🎉 CLICK THIS LINK:")
+!grep -o 'https://.*\.trycloudflare.com' tunnel_log.txt
+print("----------------------------------------------------------------")
+
+!node server.js
