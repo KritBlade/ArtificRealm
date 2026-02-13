@@ -74,7 +74,7 @@ For beginners, you can just delete any entry after lorebook entry "-------------
 
 For intermediate creator, since the card use javascript, you can check out how lorebook is used. The end of lorebook entry "Resources" have some resources that teach you how to use INSIDE World info lorebook.
 
-For Advance creator, the status menu you can see the code from Regex StatusMenu. Pay attention to function updateVariablesWith which can be used to save MVU variable, and function getCurrentCharPrimaryLorebook and getLorebookEntries for retrieving data from World Info lorebook. The code of status menu by no mean is good, I just use Antigravity to hack it. I know I can separate the logic and presentation into two layer, but that will make it really difficult for new coder to Tavern Helper to know what the heck is going on. So, I just keep that simple in one single file. Moreover, there is a schema under Tavern helper third tab called "schema", which will govern what data can be written into MVU variable. There is a bunch of regex under scope you can turn on or off to enable or disable battle raw data, update JSONpatch command..etc.
+For Advance creator, check out the MVU Zod Status Menu builder at https://github.com/KritBlade/MVU_Zod_StatusMenuBuilder
 
 Tavern helper github https://github.com/N0VI028/JS-Slash-Runner
 
