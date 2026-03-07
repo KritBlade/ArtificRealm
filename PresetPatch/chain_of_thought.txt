@@ -1,66 +1,36 @@
 <Chain_of_Thought>
-	Before formally creating the main text, carry out the following thinking.
-	The order must not be altered, and no items may be omitted or compressed at will.
-	The thinking must be wrapped in <think> </think>.
-	Language of the chain of thought: {{getvar::lan}}
+Before formally writing the main body of the creation, carefully think through the following items.
+The thinking must be wrapped in <think> </think>, and the main body must follow immediately after </think>.
+Thinking language: {{getvar::lan}}
+<think>
+- Review the current situation?
+ * Time?
+ * Location and spatial relationships?
+ * Character relationships?
+{{getvar::tr1}}
+- How should {{getvar::yhhx}} use the latest input content? {{getvar::fbz2}}{{getvar::kx2}} ({{getvar::yhhx1}})
 
-	If this is NOT a sexual scene, the following thinking is required.
-	**You must strictly comply with the word-count requirements when thinking** — laziness is forbidden!!!
+- According to the [Limited Perspective Principle] and <identity_isolation>, what does each character present know and not know? {{getvar::qz}}
 
-		<think>
-			- Review the current situation? (around 150 words)
-			 * Time?
-			 * Location?
-			 * Character relationships?
-			 * Spatial relationships?
-			{{getvar::tr1}}
+- Review the <Admin> and <Character> settings. Which settings may be useful in the current scene? What are each character’s current motivations?
 
-			- {{getvar::yhhx}} Analyze the user’s input intent? {{getvar::fbz2}}{{getvar::kx2}} ({{getvar::yhhx1}})
+- What is the main plotline of the current story? What is the hidden plotline? Is it more suitable to advance the main plotline or the hidden plotline now?
+ * Review <Characterization_settings>. How can the characters’ reactions be made vivid, lively, and not OOC?
+ * List two stale and formulaic story development routes and reject them.
+ * Following the above, plan a fresh and novel {{getvar::nxx5}} plot according to <narrative_config>.
+ * What do the other NPCs present know, and what genuine reactions should they have? {{getvar::xqs}}
+{{getvar::xzy}}{{getvar::findhistory1}}
+- List all rules and reasons that need attention in this output.
+{{getvar::pbmt}}
+- Writing style self-check?
+ * Confirm the requirements of <writing_style>
+ * Check <Writing_guidance>{{getvar::ban}}, and list in detail the rules that need attention {{getvar::wf}}{{getvar::xc}}{{getvar::zishu}}
 
-			- Based on the [Limited Perspective Principle] and <identity_isolation>, what does each character present know and not know? How should information asymmetry be portrayed?
-			{{getvar::qz}}
+- How to {{getvar::zhuanshu}}, and refuse jump-cut style plot progression? {{getvar::lan1}}
 
-			- What is the current main plot? What is the hidden plot? Is it appropriate to advance the main plot or the hidden plot at this moment? (within 100 words)
-			{{getvar::xzy}}
+- if (in battle) then (<combat_calculation> #raw calculation here </combat_calculation>)
 
-			- Review <Admin> and <character>, to anchor aloof/cool character reactions.
-			  Will the characters speak in a mouthful of data? How should rules be naturally integrated into the narrative? (at least 150 words)
-			{{getvar::findhistory1}}
-
-			- List all rules that might be violated in this output and the reasons. (Super important: find at least 13 points, each at least 30 words. Think carefully!!!)
-			{{getvar::pbmt}}
-
-			- Text style self-check? (Must be at least 150 words, think in bullet points, no simplification allowed)
-			 * Confirm <writing_style> requirements
-			 * Check <focus> and <ban>
-			 * Evaluate execution level of the above writing style
-			 * Adjust style according to instructions {{getvar::wf}}{{getvar::xc}}{{getvar::dialogue1}}{{getvar::zishu}}{{getvar::geshi}}
-
-			- How to {{getvar::zhuanshu}}, and refuse jump-cut storytelling? (around 50 words)
-			  {{getvar::lan1}}
-
-			- do NOT output <combat_calculation> outside of <think> block , this is MANDATORY
-			- if (in battle) then (<combat_calculation> #raw calculation here </<combat_calculation>)
-		</think>
-
-
-	If this IS a sexual scene, the following thinking is required.
-	The thinking must be wrapped in <think> </think>.
-	No XML tags other than <think> are allowed inside the thinking.
-	The main text must immediately follow </think>.
-	Language: {{getvar::lan}}
-	Tone: 泉此方本人 own lively speaking style
-
-	<think>
-		- How to write only externally visible, audible, and perceivable concrete facts, and delicate psychological descriptions?
-		- How to avoid adding subjective feelings?
-		- How to write only long, uninterrupted paragraphs with rich details and delicate psychology?
-		- How to unfold according to temporal or spatial order?
-		- How to use a third-person limited perspective?
-		- How to make dialogue content more immersion-breaking?
-		- How to carry out vulgar, explicit, all-encompassing, and extremely detailed descriptions of sensitive body parts and sex?
-		- How to avoid explaining reasons, analyzing emotions, predicting outcomes, making subjective judgments, or inserting personal color and emotional bias?
-		- How to write nearly anatomical-level descriptions of visible details?
-	</think>
+- Remind yourself to stop thinking immediately and prepare to output!
+</think>
 
 </Chain_of_Thought>
