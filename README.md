@@ -20,19 +20,34 @@ This character card is a iSeikai world which have magic, dwarf, elf, demon , fai
 
 When you wake up inside a damaged wooden hut, a nun called Engni was staring at you nervously……
 
-This is a NSFW game. Unlike all other RPG NSFW game, the personality of all the Heroine inside the game have serious flaws in their personality. Aka...bitches one way or the other. You as the main character would need to know their personality flaws and use it as your advantage to survive in the iseikai world. Bitches can be deadly towards enemy if you use it the right way.
+This is a NSFW game but you do NOT need to play NSFW if you don't want to, I didn't hardcode it to be horny. Unlike all other RPG NSFW game, the personality of all the Heroine ($${\color{red}16 \space of \space them}$$) inside the game have serious flaws in their personality. Aka...bitches one way or the other. You as the main character would need to know their personality flaws and use it as your advantage to survive in the iseikai world. Bitches can be deadly towards enemy if you use it the right way.  
+
+
 
 You will need to takes 6 minutes to do the installation of extension correctly for SillyTavern in order to get it to work. I assume you have already have a working connection to AI service provider, so installation won't cover the standard installation of SillyTavern. This card heavily utilize the extension Tarven Helper so that it will enable javascript in the SillyTavern engine, which will allow you to have persistent data in your story. That means every single stats in the status menu you see is persistent locally in your harddrive. AI do NOT need to remember these stats or need to remember it's state.
 
-You will need some decent AI to pull this off. My testing platform was on Gemini Flash 3.0 preview. I know Gemini 2.5 and 3.0 pro works, Claude most model works as well. Kimi 2.5 *can* work, but the thought time take ages to finish. Deepseek 3.2? I can't get that not to show the <think> process. For all other lower end model, it might or might not getting the stats update correctly.
+You will need some decent AI to pull this off. My testing platform was on Gemini Flash 3.0 preview. I know Gemini 2.5 and 3.0/3.1 pro works, Claude most model works as well. Kimi 2.5 *can* work, but the thought time take ages to finish. Deepseek 3.2? I can't get that not to show the <think> process. For all other lower end model, it might or might not getting the stats update correctly.
 
-Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, you will have to download a preset that works with Tavern Helper. There is one I found that have some English translation can be downloaded Izumi preset from https://discord.gg/C6HabNwzn7 inside a discord channel as you see in the installation video. You will need to patch 2 places as you saw in the video so that it works correctly in English.
+Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, you will have to download a preset that works with Tavern Helper. There is one I found that have some English translation can be downloaded Izumi preset from https://discord.gg/C6HabNwzn7 inside a discord channel as you see in the installation video. <br><br>
 
-In case you have a hard time to get the Izumi preset, I found that Megumin Preset here at reddit works OK, although not optimal, but it works. You will have to read the post below to setup the preset (including the first comment by the OP) https://www.reddit.com/r/SillyTavernAI/comments/1q2bwdp/megumins_secret_sauce_gemini_v15_3_and_25/
+<img width="1328" height="855" alt="image" src="https://github.com/user-attachments/assets/71af5433-4ef1-4d0f-9e60-207462bc71f0" />
+<br><br><br>
 
-Once you get into the game/chat, you can view the storage of the stats in JSON format at the red arrow https://i.vgy.me/zoLtSs.jpg , and you can view every single floor of the chat at this tab https://i.vgy.me/G9kcUQ.jpg . You can modify the stat right here if you need to. The blue arrow would allow you to see the prompt that will be sent to AI for preset builder.
+In case you have a hard time to get the Izumi preset, I found that Megumin Preset here at reddit works OK, although not optimal, but it works. https://www.reddit.com/r/SillyTavernAI/comments/1r8h0d1/megumin_secret_v31_now_with_glm_5_and_47_support/
 
-This game is far from polished, but it serve as a showcase what the extension can be done. I believe Tavern Helper would have a English version soon as I saw they are doing translation on Github.
+
+
+Once you get into the game/chat, you can view the storage of the stats in JSON format from variable manager , and you can view every single floor of the chat at this tab. You can modify the stat right here if you need to. The prompt viewer allow you to see the prompt that will be sent to AI, which is mainly used by preset builder.
+
+<img width="605" height="761" alt="image" src="https://github.com/user-attachments/assets/c564ca7b-b0d5-4073-aa8d-0fcb70ef5ec2" />
+<img width="737" height="1119" alt="image" src="https://github.com/user-attachments/assets/3240e667-95a6-452b-a9bd-a5d8f4a98e2f" />
+
+
+
+
+
+<br><br><br><br><br><br>
+
 
 -------------------------------------------
 
