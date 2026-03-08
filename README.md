@@ -4,9 +4,9 @@ SillyTavern Character Card - license GPL 3.0, NOT for commerical use.
 
 --------- Regular player -------------
 
-I am releasing the MVU Zod Character card Artific Realm (アーティフィック レルム 創世域). Installation video guide here https://youtu.be/whRF0pJAzvs
+I am releasing the MVU Zod Character card Artific Realm (アーティフィック レルム 創世域). Installation video guide here [https://youtu.be/whRF0pJAzvs](https://youtu.be/Jh1ojfiqGXI)
 
-The game character card is here to download at https://github.com/KritBlade/ArtificRealm/tree/main/CharacterCard  You are required to follow the youtube video above to do the installation of an extension or it won't work. PC for playing is recommended due to the large interface.
+The game character card is here to download at [https://github.com/KritBlade/ArtificRealm/tree/main/CharacterCard](https://github.com/KritBlade/ArtificRealm/releases/)  You are required to follow the youtube video above to do the installation of an extension or it won't work. PC for playing is recommended due to the large interface.
 
 This character card is a iSeikai world which have magic, dwarf, elf, demon , fairy..etc. A powerful suction drag you 'the main char' into this world. As you arrived the world, you were supercharged with four ex-plugins [Soul Covenant], [Inventory], [System Panel], and [Phoenix Pact].
 
