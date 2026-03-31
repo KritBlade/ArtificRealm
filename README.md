@@ -4,9 +4,9 @@ SillyTavern Character Card - license GPL 3.0, NOT for commerical use.
 
 --------- Regular player -------------
 
-I am releasing the MVU Zod Character card Artific Realm (アーティフィック レルム 創世域). Installation video guide here [https://youtu.be/whRF0pJAzvs](https://youtu.be/Jh1ojfiqGXI)
+I am releasing the MVU Zod Character card Artific Realm (アーティフィック レルム 創世域). Installation video guide [here](https://youtu.be/Jh1ojfiqGXI) .  All the links of extension needed is listed under the description of the youtube video.
 
-The game character card is here to download at [https://github.com/KritBlade/ArtificRealm/tree/main/CharacterCard](https://github.com/KritBlade/ArtificRealm/releases/)  You are required to follow the youtube video above to do the installation of an extension or it won't work. PC for playing is recommended due to the large interface.
+The game character card is here to download at [release section](https://github.com/KritBlade/ArtificRealm/releases/)  You are required to follow the youtube video above to do the installation of an extension or it won't work. PC for playing is recommended due to the large interface.
 
 This character card is a iSeikai world which have magic, dwarf, elf, demon , fairy..etc. A powerful suction drag you 'the main char' into this world. As you arrived the world, you were supercharged with four ex-plugins [Soul Covenant], [Inventory], [System Panel], and [Phoenix Pact].
 
@@ -24,16 +24,16 @@ This is a NSFW game but you do NOT need to play NSFW if you don't want to, I did
 
 
 
-You will need to takes 6 minutes to do the installation of extension correctly for SillyTavern in order to get it to work. I assume you have already have a working connection to AI service provider, so installation won't cover the standard installation of SillyTavern. This card heavily utilize the extension Tarven Helper so that it will enable javascript in the SillyTavern engine, which will allow you to have persistent data in your story. That means every single stats in the status menu you see is persistent locally in your harddrive. AI do NOT need to remember these stats or need to remember it's state.
+You will need to takes 6 minutes to do the [installation of extension](https://youtu.be/Jh1ojfiqGXI) correctly for SillyTavern in order to get it to work. I assume you have already have a working connection to AI service provider, so installation won't cover the standard installation of SillyTavern. This card heavily utilize the extension Tarven Helper so that it will enable javascript in the SillyTavern engine, which will allow you to have persistent data in your story. That means every single stats in the status menu you see is persistent locally in your harddrive. AI do NOT need to remember these stats or need to remember it's state.
 
 You will need some decent AI to pull this off. My testing platform was on Gemini Flash 3.0 preview. I know Gemini 2.5 and 3.0/3.1 pro works, Claude most model works as well. Kimi 2.5 *can* work, but the thought time take ages to finish. Deepseek 3.2? I can't get that not to show the <think> process. For all other lower end model, it might or might not getting the stats update correctly.
 
-Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, you will have to download a preset that works with Tavern Helper. There is one I found that have some English translation can be downloaded Izumi preset from https://discord.gg/C6HabNwzn7 inside a discord channel as you see in the installation video. <br><br>
+Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, you will have to download a preset that works with Tavern Helper. There is one I found that have some English translation can be downloaded Izumi preset from [discord](https://discord.gg/C6HabNwzn7) inside a discord channel as you see in the installation video. <br><br>
 
 <img width="1328" height="855" alt="image" src="https://github.com/user-attachments/assets/71af5433-4ef1-4d0f-9e60-207462bc71f0" />
 <br><br><br>
 
-In case you have a hard time to get the Izumi preset, I found that Megumin Preset here at reddit works OK, although not optimal, but it works. https://www.reddit.com/r/SillyTavernAI/comments/1r8h0d1/megumin_secret_v31_now_with_glm_5_and_47_support/
+In case you have a hard time to get the Izumi preset, I found that [Megumin Preset](https://www.reddit.com/r/SillyTavernAI/comments/1s2pfj6/megumin_suite_v41_dev_mode_and_bug_fixes/) here at reddit works OK too.  You will have to follow the instruction to install their extension and preset in order to get the preset to work.
 
 
 
@@ -53,11 +53,11 @@ Once you get into the game/chat, you can view the storage of the stats in JSON f
 
 I have to give credit to where it's due. It is loosely based on another card "The Fallen Psalms of Terrarien" which I hack the hell out of this card and only leaving the world lore in place. Character design is coming from another card called "Building a Harem in an Otherworld Full of Villainous Bitches" which most of the characters idea is based on this card. The lorebook was huge in "The Fallen Psalms of Terrarien" so I decided to keep it as is and translate that into English. The most difficult part of this project was to do the translation while keep the name consistent. No, you will still see AI translation issue here or there...but that's too big of a effort to get all of them right.
 
-Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, and I hope eventually someone here will build a preset that works with Tavern helper. During the mean time, I found one preset that have "kind of" English translation that at least you can read the title. You can download this preset from https://discord.gg/C6HabNwzn7 inside a discord channel. I am not the owner of the preset and I was told that people will have to get into discord to download the preset. I can't redistribute the preset, the preset is called Izumi Preset.
+Since the game is required to use a preset that works with Tavern Helper, most of the preset in the Western world wouldn't get the stats update in chat correctly, and I hope eventually someone here will build a preset that works with Tavern helper. During the mean time, I found one preset that have "kind of" English translation that at least you can read the title. You can download this [preset](https://discord.gg/C6HabNwzn7) from inside a discord channel. I am not the owner of the preset and I was told that people will have to get into discord to download the preset. I can't redistribute the preset, the preset is called Izumi Preset.
 
 --------- Preset Builder -------------
 
-As you can see in the video, player are required to download a preset so that it will work correctly with MVU variable update. I am not a preset builder. I hope someone here will eventually make a preset that works with Tavern Helper with MVU Zod support. The main issue of making a preset for Tavern Helper is not adding how many bells and whistles in your preset, it's how much you can SQUEEZE minimum required features while keeping the output token small. You can check out Izume preset here https://discord.gg/C6HabNwzn7, which I know it works well. The preset comes with quest number generator on main quest and side quest , which is super friendly for JSONpatch add into MVU variable. It also feature the MVU update structure
+As you can see in the video, player are required to download a preset so that it will work correctly with MVU variable update. I am not a preset builder. I hope someone here will eventually make a preset that works with Tavern Helper with MVU Zod support. The main issue of making a preset for Tavern Helper is not adding how many bells and whistles in your preset, it's how much you can SQUEEZE minimum required features while keeping the output token small. You can check out [Izume preset](https://discord.gg/C6HabNwzn7), which I know it works well. The preset comes with quest number generator on main quest and side quest , which is super friendly for JSONpatch add into MVU variable. It also feature the MVU update structure
 
 <UpdateVariable>
 
@@ -73,26 +73,25 @@ As you can see in the video, player are required to download a preset so that it
 
 Since this is a Chinese preset so it doesn't work quite well with English thought as well as Jailbreak on English story. I provided two patches on thoughts and jailbreak from
 
-https://github.com/KritBlade/ArtificRealm/blob/main/PresetPatch/chain_of_thought.txt
+[chain_of_thought](https://github.com/KritBlade/ArtificRealm/blob/main/PresetPatch/chain_of_thought.txt)
 
-https://github.com/KritBlade/ArtificRealm/blob/main/PresetPatch/jailbreak.txt
+[jailbreak](https://github.com/KritBlade/ArtificRealm/blob/main/PresetPatch/jailbreak.txt)
 
-which you can see where to patch in the video
+which you can see where to patch in the [video](https://www.youtube.com/watch?v=Jh1ojfiqGXI)
 
-https://youtu.be/whRF0pJAzvs.
 
 --------- Game Card builder -------------
 
-You can hack the hell out of this card as you like, you just need to give a reference your card is based on https://github.com/KritBlade/ArtificRealm and it's all I am asking for.
+You can hack the hell out of this card as you like, you just need to give a reference your card is based on [ArtificRealm](https://github.com/KritBlade/ArtificRealm) and it's all I am asking for.
 
 For beginners, you can just delete any entry after lorebook entry "-------------- Your lorebook start here -------------- ", just keep one entry "Heroine" and one entry "Bluewatch". You can duplicate these two entries for characters and lores. You can pretty much build your own game here. Anything before "-------------- Your lorebook start here -------------- ", it's the logic of the game, unless you need to change how the logic works, you shouldn't need to touch this part. Feel free to amend those if you know what you are doing. <Attribute_system>, <monster_guide>, <Battle_system>, <healing_guide> and <progression_system> goes hand to hand with each other, so if you modify any one of those, make sure the number works out correctly for the other tag.
 
 For intermediate creator, since the card use javascript, you can check out how lorebook is used. The end of lorebook entry "Resources" have some resources that teach you how to use INSIDE World info lorebook.
 
-For Advance creator, check out the MVU Zod Status Menu builder at https://github.com/KritBlade/MVU_Zod_StatusMenuBuilder
+For Advance creator, check out the [MVU Zod Status Menu builder](https://github.com/KritBlade/MVU_Zod_StatusMenuBuilder) 
 
-Tavern helper github https://github.com/N0VI028/JS-Slash-Runner
+[Tavern helper](https://github.com/N0VI028/JS-Slash-Runner) 
 
-ST Prompt template source code https://codeberg.org/zonde306/ST-Prompt-Template/
+[ST Prompt template](https://codeberg.org/zonde306/ST-Prompt-Template/)
 
 ps. Tavern Helper is *the* default installation extension for the Chinese SillyTavern commnuity, we are talking about hundred of thousand of users have this installed by default.
