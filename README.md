@@ -1,6 +1,6 @@
 # ArtificRealm
 
-> **SillyTavern Character Card** — License GPL 3.0, **NOT** for commercial use.
+> **SillyTavern Character Card** — License GPL 3.0, which allows commercial use.
 
 ## 🎮 Regular Player
 
