@@ -1,6 +1,6 @@
 # ArtificRealm
 
-> **SillyTavern Character Card** — License GPL 3.0, **NOT** for commercial use.
+> **SillyTavern Character Card** — License CC BY-NC-SA 4.0, **NOT** for commercial use.
 
 ## 🎮 Regular Player
 
